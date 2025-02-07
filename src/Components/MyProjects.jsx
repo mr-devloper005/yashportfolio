@@ -56,7 +56,7 @@ let myProjectsData = [
 
 
   return (
-    <div className='md:block w-full h-auto pt-10 bg-gradient-to-b rounded-4xl mt-5 from-stone-950 via-neutral-900 to-neutral-800'>
+    <div className='md:block w-full h-auto md:h-3/4 pt-10 bg-gradient-to-b rounded-4xl mt-5 from-stone-950 via-neutral-900 to-neutral-800'>
       <h1 className='text-5xl lili text-center text-white mb-10'>
         <span className='col'>R</span>ecent <span className='col'>P</span>rojects
       </h1>
@@ -68,7 +68,7 @@ let myProjectsData = [
             target="_blank"
             rel="noopener noreferrer"
             key={index}
-            className='h-2/4 w-4/5 md:w-1/4 rounded-4xl  m-2'
+            className=' w-4/5 md:h-96 md:w-1/4 rounded-4xl  m-2'
           >
             <img
               src={item.image}

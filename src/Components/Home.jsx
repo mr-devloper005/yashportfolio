@@ -40,7 +40,7 @@ function Home() {
         <h2 className='text-white  font-extrabold lobster-regular text-3xl md:text-7xl'>
           <span className='col'>I</span>'m a <span className='col'>F</span>ront <span className='col'>E</span>nd <span className='col'>W</span>eb <span className='col'>D</span>eveloper
         </h2>
-        <h4 className='text-white lobster-regular tracking-wide text-2xl md:text-4xl text-center px-4 md:px-20'>
+        <h4 className='text-white lobster-regular tracking-wide text-2xl md:text-4xl xl:text-5xl text-center px-4 md:px-20 xl:px-40'>
           I can build user-friendly interfaces for websites and applications with{' '}
           <span className='text-blue-600'>React JS</span> and{' '}
           <span className='text-yellow-400'>JavaScript</span>. I love front-end development.

@@ -34,18 +34,18 @@ function Services() {
   return (
     <div id='services' className='z-0 h-screen w-full flex flex-col justify-center pt-36 items-center bg-neutral-950 cursor-pointer'>  
 
-      <h1 className='lili text-4xl text-white text-center'><span className="col">W</span>hat <span className="text-cyan-600">I</span>
+      <h1 className='lili text-4xl md:text-6xl text-white text-center'><span className="col">W</span>hat <span className="text-cyan-600">I</span>
       <span className="col"> D</span>o <span className="col">F</span>or <span className="col">C</span>lient.
       </h1>  
 
       <p className='text-white mt-7 text-2xl text-center'>"Passionate web developer crafting modern, responsive, and optimized websites." 🚀</p>
 
-      <div className='w-full overflow-x-auto h-5/6 flex flex-nowrap justify-start items-center'>
+      <div className='w-full overflow-x-auto h-5/6 flex  flex-nowrap justify-start xl:justify-evenly items-center'>
 
         {data.map((obj, index) => (
-          <div key={index} className='h-3/4 w-4/5 md:w-1/5 m-2 rounded-3xl bg-stone-950 border-4 border-black opacity-95 flex-shrink-0'>
-            <h1 className='text-center text-white p-5 text-3xl lili'>{obj.icon} {obj.title} </h1>
-            <p className='m-5 text-xl md:text-2xl text-white'>{obj.description}</p>
+          <div key={index} className='h-3/4 w-4/5 md:w-md m-2 rounded-3xl bg-stone-950 border-4 border-black opacity-95 flex-shrink-0'>
+            <h1 className='text-center text-white p-5 text-3xl lg:text-5xl  lili'>{obj.icon} {obj.title} </h1>
+            <p className='m-5 text-xl md:text-2xl lg:text-4xl text-white'>{obj.description}</p>
           </div>  
         ))}   
       </div>

@@ -26,15 +26,15 @@ function AboutMe() {
   return (
     <div id='about-me' className='flex rounded-4xl w-full h-screen md:flex lili tracking-wide text-white bg-gradient-to-r from-stone-950 via-neutral-900 to-neutral-800'>
       <div className='h-full w-full flex px-5 justify-center md:px-20 gap-5 flex-col bg-transparent'>
-        <h1 className='text-5xl'>  
+        <h1 className='text-5xl lg:text-7xl '>  
           <span className=" text-orange-500">Y</span>ash{' '}
           <span className=" text-rose-600">N</span>ihalani
         </h1>
-        <h2 className='text-5xl '>Freelance
+        <h2 className='text-5xl lg:text-7xl'>Freelance
           <br></br>
-          <span className='text-amber-500 text-4xl'> Web Developer</span>
+          <span className='text-amber-500 text-5xl'> Web Developer</span>
         </h2>
-        <h3 className='text-xl md:text-3xl'>
+        <h3 className='text-xl md:text-3xl lg:text-4xl'>
         I’m a Freelance web developer with a passion for crafting sleek, responsive websites. Expert in React, Tailwind CSS, Redux, and Appwrite, I create dynamic user interfaces with smooth GSAP animations. I enjoy turning ideas into reality, having built exciting projects like a music app, blog website, and interactive platforms. My goal? To master Full-Stack Development and deliver seamless, engaging digital experiences that leave a lasting impact! 
         </h3>
         <button className='p-5 text-2xl active:scale-95 font-bold tracking-wide w-44 bg-amber-950 rounded-4xl'>Contact Me</button>
