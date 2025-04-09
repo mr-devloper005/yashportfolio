@@ -31,7 +31,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 function NavBar() {
   return (
-    <div id='navBar' className='z-10 fixed top-0 w-full h-20 lobster-regular px-5 xl:px-32 flex items-center justify-between bg text-white'>
+    <div id='navBar' className='z-10 fixed top-0 w-full h-20 lobster-regular px-5 lg:px-24 xl:px-32 flex items-center justify-between bg text-white'>
       <h1 className=" text-3xl md:text-4xl xl:text-4xl font-bold lobster-regular">
         <span className="col text-red-500">Y</span>ash{' '}
         <span className="col text-blue-500">N</span>ihalani
