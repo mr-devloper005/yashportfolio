@@ -18,8 +18,8 @@ let myProjectsData = [
   {
     title: '#3 Blog Website',
     description: 'This is a blog website where users can read and write articles on various topics.',
-    image:'blogger.png',
-    link: 'https://blog-website.netlify.app/'
+    image:'blog-editor.png',
+    link: 'https://yashblogeditor.netlify.app/'
   },
   // {
   //   title: 'Interactive Platform',
